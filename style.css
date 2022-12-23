@@ -1,0 +1,41 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.screen{
+    border: 2px solid black;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+ 
+}
+
+.numbers{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.operators{
+    display: flex;
+    flex-direction: column;
+}
+
+.addPadd{
+    padding: 4px;
+}
+
+textarea { 
+    border-style: none; 
+    border-color: Transparent; 
+    overflow: auto;        
+  }
